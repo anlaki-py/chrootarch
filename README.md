@@ -441,3 +441,5 @@ sudo chmod -R 1777 /data/data/com.termux/files/usr/tmp # i put this as virgl kep
 
 su -c "sh /data/local/tmp/arch-xfce4.sh"
 ```
+
+credit: @LinuxDroidMaster
