@@ -1,3 +1,6 @@
+<img src="https://raw.githubusercontent.com/anlaki-py/chrootarch/main/Screenshots/arch2.png" alt="Alt Text"/>
+
+
 > [!CAUTION]
 > READ CAREFULLY! When using Chroot environments to exit completely close the Termux application even from the background apps or if necessary force close it. Otherwise, in case you do some command like "rm -rf chrootFolder" the device will go crazy and you will have to force reboot it.
 
