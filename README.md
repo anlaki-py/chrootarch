@@ -2,7 +2,7 @@
 > READ CAREFULLY! When using Chroot environments to exit completely close the Termux application even from the background apps or if necessary force close it. Otherwise, in case you do some command like "rm -rf chrootFolder" the device will go crazy and you will have to force reboot it.
 
 > [!NOTE]
-> My phone is a 6GB RAM [Redmi Note 10S](https://m.gsmarena.com/xiaomi_redmi_note_10s-10769.php) with [LineageOS](https://lineageos.org/) Android 14.
+> My phone is a 6GB RAM [Redmi Note 10S](https://m.gsmarena.com/xiaomi_redmi_note_10s-10769.php) with ~~[LineageOS](https://lineageos.org/) Android 14.~~
 
 # 📚 Index
 
