@@ -77,8 +77,7 @@ vi resolv.conf
 - > Type `i` to enter insert mode and past the following:
 
 ```bash
-# Content
-nameserver 9.9.9.9 # or use 8.8.8.8 (google DNS)
+nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
