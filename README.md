@@ -193,10 +193,10 @@ if [ ! -f "$mnt/run/systemd/resolve/resolv.conf" ]; then
 fi
 
 # Bind mount resolv.conf for DNS resolution
-if ! busybox mount --bind /etc/resolv.conf $mnt/run/systemd/resolve/resolv.conf; then
-  echo "Error: Failed to bind mount /run/systemd/resolve/resolv.conf."
-  exit 1
-fi
+# if ! busybox mount --bind /etc/resolv.conf $mnt/run/systemd/resolve/resolv.conf; then
+  # echo "Error: Failed to bind mount /run/systemd/resolve/resolv.conf."
+  # exit 1
+# fi
 
 # Chroot into Arch
 if ! busybox chroot $mnt /bin/su - root; then
@@ -395,10 +395,10 @@ if [ ! -f "$mnt/run/systemd/resolve/resolv.conf" ]; then
 fi
 
 # Bind mount resolv.conf for DNS resolution
-if ! busybox mount --bind /etc/resolv.conf $mnt/run/systemd/resolve/resolv.conf; then
-  echo "Error: Failed to bind mount /run/systemd/resolve/resolv.conf."
-  exit 1
-fi
+# if ! busybox mount --bind /etc/resolv.conf $mnt/run/systemd/resolve/resolv.conf; then
+  # echo "Error: Failed to bind mount /run/systemd/resolve/resolv.conf."
+  # exit 1
+# fi
 
 # Chroot into Arch
 if ! busybox chroot $mnt /bin/su - aki -c "export DISPLAY=:0 PULSE_SERVER=tcp:127.0.0.1:4713 && dbus-launch --exit-with-session startxfce4"; then
