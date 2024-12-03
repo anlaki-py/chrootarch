@@ -14,7 +14,7 @@
 
 1. **First you need to have your device <u>rooted</u>.**
 2. **You need to flash [Busybox](https://github.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/releases) with Magisk.**
-3. **Then you need to use any terminal that has root access. (e.g., Termux)
+3. **Then you need to use any terminal that has root access. (e.g., Termux)**
 
 ---  
 
