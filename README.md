@@ -39,14 +39,6 @@ cd chrootarch
 tar xvf /data/local/tmp/ArchLinuxARM-aarch64-latest.tar.gz --numeric-owner
 ```
 
-- **Create needed folders:**
-
-```bash
-mkdir media
-mkdir media/sdcard
-mkdir dev/shm
-```
-
 - **Create the start script:**
 
 ```bash
